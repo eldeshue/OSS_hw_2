@@ -7,6 +7,9 @@ int main(){
 	std::string a;
 	std::cout<<"Type a string you want to echoing"<<std::endl;
 	std::cin>> a ;
+	if(a == "exit"){
+		return 0;
+	}
 	std::cout<< a <<std::endl;
 	return 0;
 }
